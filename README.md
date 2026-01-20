@@ -6,7 +6,7 @@ This repo is a minimal NFC-friendly digital business card.
 
 - Your NFC tag stores **one URL** (this GitHub Pages URL).
 - Tapping the tag opens the page.
-- The **Save contact** button downloads `contact.vcf`, which both iPhone and Android can import.
+- The **Save contact** buttons download a `.vcf`, which both iPhone and Android can import.
 
 ## Enable GitHub Pages
 
@@ -27,6 +27,6 @@ Use an app like **NFC Tools**:
 
 ## Edit your details
 
-- Contact download file: `contact.vcf`
+- Contact download files: `contact.vcf` (Camiel) and `rutger.vcf` (Rutger)
 - Page layout/styles: `index.html`, `styles.css`
 - Logo image: `logo.png`

@@ -32,13 +32,24 @@ body {
 
 .wrap {
   min-height: 100%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 28px 18px;
 }
 
+.cards {
+  width: min(1100px, 100%);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 520px));
+  gap: 18px;
+  justify-content: center;
+  align-items: start;
+}
+
 .card {
-  width: min(520px, 100%);
+  width: 100%;
+  max-width: 520px;
   border-radius: var(--radius);
   background: var(--card);
   border: 1px solid var(--hairline);
@@ -179,5 +190,15 @@ a:hover {
 
   .row {
     grid-template-columns: 62px 1fr;
+  }
+}
+
+@media (max-width: 980px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    max-width: none;
   }
 }
