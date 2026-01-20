@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Schmeitz De Groen AI Labs//Digital Business Card//EN
+N:Schmeitz;Camiel;;;
+FN:Camiel Schmeitz
+ORG:Schmeitz De Groen AI Labs
+TITLE:AI Full Stack Developer
+TEL;TYPE=CELL:+31637557073
+EMAIL;TYPE=INTERNET,WORK:camiel@schmeitzdegroenailabs.com
+URL:https://schmeitzdegroenailabs.com
+REV:2026-01-20T00:00:00Z
+END:VCARD
